@@ -1,0 +1,73 @@
+.footer {
+    padding: 50px 0px;
+    background-color: #141414;
+}
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    color: #bcbcbc;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.piroll {
+    margin: 0px 10px;
+}
+.piroll__header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 72px;
+    color: #ffffff;
+}
+.piroll__item{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+.contact {
+    margin: 0px 10px;
+}
+.sitemap {
+    display: flex;
+    margin: 0px 10px;
+
+}
+.networks {
+    padding: 0px 0px;
+    margin: 0px 10px;
+    a {
+        text-decoration: none;
+        color: #bcbcbc;
+    }
+}
+.lists {
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+.sitemap__column-one {
+    padding: 0px 0px;
+    a {
+        text-decoration: none;
+        color: #bcbcbc;
+    }
+}
+.sitemap__column-two {
+    a {
+        text-decoration: none;
+        color: #bcbcbc;
+    }
+}
+
+
+
+@media all and (max-width:480px) {
+    .piroll__header {
+        font-size: 16px;
+        line-height: 48px;
+    }
+}

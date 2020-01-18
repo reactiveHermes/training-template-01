@@ -1,0 +1,16 @@
+.clients {
+    min-height: 200px;
+    color: #ffffff;
+}
+.clients__wrapper {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.clients__img {
+    margin: 20px 10px;
+}

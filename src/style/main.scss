@@ -1,0 +1,23 @@
+@import './header';
+@import './about-us';
+@import './skills';
+@import './numbers.scss';
+@import './works.scss';
+@import './work-process';
+@import './services.scss';
+@import './testimonials.scss';
+@import './clients.scss';
+@import './need-project.scss';
+@import './footer.scss';
+body {
+    margin: 0px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}

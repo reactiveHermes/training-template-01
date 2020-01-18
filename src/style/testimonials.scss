@@ -1,0 +1,40 @@
+.testimonials {
+    min-height: 500px;
+    background-color: #10c9c3;
+
+}
+
+.testimonials__item {
+    text-align: center;
+    min-height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials__slogan {
+    max-width: 72%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.testimonials__author {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 36px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.slick-dots li button:before {
+    font-size: 25px;
+    color: white;
+}
+.slick-dots li.slick-active button:before{
+    font-size: 40px;
+}
+.slick-dots li.slick-active button:before {
+    color: white;
+}

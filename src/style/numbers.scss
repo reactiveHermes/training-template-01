@@ -1,0 +1,40 @@
+.numbers {
+    background-color: #10c9c3;
+}
+.numbers-box-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+.number-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+    width: 250px;
+}
+.number-box__img {
+    margin-right: 20px;
+}
+.number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.number__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+@media all and (max-width:830px) {
+    .number-box {
+        justify-content: flex-start;
+        width: 220px;
+    }
+}
